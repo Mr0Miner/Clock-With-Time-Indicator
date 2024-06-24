@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+html {
+    background: #28A174;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid #007653;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    background: #057B59;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+    background: #057B59;
+    border-radius: 50%;
+}
+
+.hand {
+    width: 50%;
+    height: 4px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    background: #A7DDD1;
+}
+
+.hour-hand {
+    width: 35%;
+    left: 15%;
+}
+
+.min-hand {
+    width: 45%;
+    left: 5%;
+}
+
+.settings-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.settings-panel {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-panel h3 {
+    font-family: "Poetsen One", sans-serif;
+    margin-top: 0;
+    font-size: 100%;
+}
+
+.settings-panel label {
+    font-family: "Poetsen One", sans-serif;
+    display: block;
+    margin: 10px 0;
+    font-size: 100%;
+}
+
+#numeric-time {
+    color: white;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 300%;
+    margin-top: 20px;
+}
