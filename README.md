@@ -13,7 +13,7 @@ A simple, customizable clock application that displays the current time using Ja
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Mr0Miner/Clock-With-Time-Indicator
+    git clone https://github.com/Mr0Miner/Clock-With-Time-Indicator.git
     ```
 2. Navigate to the project directory:
     ```bash
